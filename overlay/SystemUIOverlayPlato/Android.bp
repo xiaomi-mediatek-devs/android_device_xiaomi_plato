@@ -6,7 +6,6 @@
 
 runtime_resource_overlay {
     name: "SystemUIOverlayPlato",
-    sdk_version: "current",
     resource_dirs: ["res"],
     device_specific: true,
 }

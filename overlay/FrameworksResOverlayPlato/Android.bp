@@ -6,7 +6,6 @@
 
 runtime_resource_overlay {
     name: "FrameworksResOverlayPlato",
-    sdk_version: "current",
     resource_dirs: ["res"],
     device_specific: true,
 }
