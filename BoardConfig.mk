@@ -11,6 +11,10 @@ DEVICE_PATH := device/xiaomi/plato
 # Display
 TARGET_SCREEN_DENSITY := 480
 
+# DTBO
+BOARD_CUSTOM_DTBOIMG_MK := $(DEVICE_PATH)/dtbo/mkdtboimg.mk
+BOARD_KERNEL_SEPARATED_DTBO := true
+
 # Kernel Modules
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules/modules.load.vendor_boot))
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules/modules.load.recovery))

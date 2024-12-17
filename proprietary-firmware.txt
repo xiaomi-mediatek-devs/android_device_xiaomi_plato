@@ -3,7 +3,6 @@
 apusys.img;AB
 audio_dsp.img;AB
 ccu.img;AB
-dtbo.img;AB
 dpm.img;AB
 gpueb.img;AB
 gz.img;AB
