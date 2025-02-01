@@ -54,5 +54,8 @@ PRODUCT_SHIPPING_API_LEVEL := 31
 # Inherit from mt6895-common
 $(call inherit-product, device/xiaomi/mt6895-common/mt6895.mk)
 
+# Inherit MiuiCamera makefile
+$(call inherit-product, vendor/xiaomi/miuicamera-plato/device.mk)
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/plato/plato-vendor.mk)

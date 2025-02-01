@@ -26,5 +26,8 @@ VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
 # Inherit from mt6895-common
 include device/xiaomi/mt6895-common/BoardConfigCommon.mk
 
+# Inherit MiuiCamera
+include vendor/xiaomi/miuicamera-plato/BoardConfig.mk
+
 # Inherit the proprietary files
 include vendor/xiaomi/plato/BoardConfigVendor.mk
