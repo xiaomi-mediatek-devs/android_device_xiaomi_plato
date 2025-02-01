@@ -1,3 +1,6 @@
+# Bluetooth
+bluetooth.device.default_name=Xiaomi 12T
+
 # Camera
 camera.disable_zsl_mode=1
 persist.vendor.camera3.pipeline.bufnum.min.high_ram.imgo=7
