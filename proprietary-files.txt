@@ -1,4 +1,4 @@
-# Unpinned blobs from plato-user 15 AP3A.240905.015.A2 OS2.0.5.0.VLQMIXM release-keys
+# Unpinned blobs from plato-user 15 AP3A.240905.015.A2 OS2.0.204.0.VLQMIXM release-keys
 
 # Audio
 vendor/lib64/hw/audio.primary.mediatek.so;SYMLINK=vendor/lib64/hw/audio.primary.mt6895.so
